@@ -11,6 +11,6 @@ const Card = props => (
 
 Card.propTypes = {
   title: PropTypes.node.isRequired,
-}
+};
 
 export default Card;
