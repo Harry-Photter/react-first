@@ -15,15 +15,15 @@ class Header extends React.Component {
             <Link to='/' className={styles.logo}>
               <Icon name={settings.header.icon} />
             </Link>
+            <Search />
             <nav>
               <NavLink exact to='/' activeClassName='active'>Home</NavLink>
               <NavLink exact to='/info' activeClassName='active'>Info</NavLink>
               <NavLink exact to='/FAQ' activeClassName='active'>FAQ</NavLink>
             </nav>
-
           </div>
+          
         </Container>
-        <Search />
       </header>
     );
   }
